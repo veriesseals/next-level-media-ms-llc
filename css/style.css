@@ -1,0 +1,38 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+/* Title */
+/* ---------------------------------------------------------------------------- */
+#title {
+    margin: auto;
+    width: 50%;
+}
+
+#header-menu {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+
+#carouselExampleAutoplaying {
+    margin: auto;
+    width: 80%;
+}
+
+
+.tilt-neon-uniquifier {
+    margin: auto;
+    width: 50%;
+    color: rgb(202, 38, 38);
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+}
