@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px dotted red;
-}
+} */
 
 /* Title */
 /* ----------------------------------------------------------- */
@@ -20,6 +20,10 @@
     list-style-type: none;
     justify-content: space-between;
     padding: 0px 50px 0px 50px;
+}
+
+#nlm_logo_2024 {
+    background-color: white;
 }
 
 
@@ -62,10 +66,58 @@ button {
     background-color: rgb(255, 255, 255);
 }
 
-/* Rollover Effect for Menu */
+
+/* Section 1 */
 /* ----------------------------------------------------------- */
 
+#sect-01-cont{
+    width: 100%;
+    background-color: #242e38;
+}
 
+#sect-01-cont h1{
+    font-size: 24px;
+}
+
+.header-title{
+    color: #eef3f7;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* ----------------------------------- */
+/* Hamburger Menu*/
+.navbar-brand{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#noHover{
+    pointer-events: none;
+}
+
+#navbarSupportedContent ul li a{
+    color: whitesmoke;
+    font-family: 'Barlow', sans-serif;
+}
+
+#navbarSupportedContent ul li a:link {
+    text-decoration: none;
+}
+
+#navbarSupportedContent ul li a:visted {
+    text-decoration: none;
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: #64696d;
+    text-decoration: none;
+}
+
+#navbarSupportedContent ul li a:active {
+    text-decoration: none;
+}
 
 
 /* Footer */
@@ -91,3 +143,22 @@ button {
 }
 /* CSS Media Queries */
 /* ----------------------------------------------------------- */
+
+/* @media (max-width: 1080px) {
+    .wrapper {
+        padding: 0px 10px 0px 10px;
+        width: 100%;
+    }
+    #carouselExampleAutoplaying {
+        width: 100%;
+    }
+    #title {
+        width: 100%;
+    }
+    #social-media-icons {
+        padding: 0px 0px 0px 0px;
+    }
+    #footer-address {
+        padding: 0px 0px 0px 0px;
+    }
+} */
