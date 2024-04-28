@@ -24,99 +24,92 @@
 
   <!-- Body -->
   <body>
-    <header class="top-header">
-      <div id="sect-01-cont" class="container-fluid">
-        <div class="row">
-          <div>
-            <div id="nlm_logo_2024">
-              <img src="/img/nlm_logo_2024.png" alt="">
-            </div>
-
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="header-title">
-            <!-- New Hamburger Menu -->
-            <nav class="navbar navbar-expand-lg bg-dark">
-              <div class="container-fluid">
-                <h4 id="noHover" class="navbar-brand">About Me</h4>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        aria-current="page"
-                        href="index.html"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about-me.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        aria-current="page"
-                        href="portfolio.html"
-                        >Portfolio</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        aria-current="page"
-                        href="blog.html"
-                        >Blog</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        aria-current="page"
-                        href="whats-on-your-mind.html"
-                        >What's on your mind?</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        aria-current="page"
-                        href="mailto:veries@me.com"
-                        >Email Me!</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active"
-                        aria-current="page"
-                        href="sign-up.html"
-                        >Sign-Up</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-            <!-- End New Hamburger Menu -->
-          </div>
+    <div class="wrapper">
+      <!-- Logo -->
+      <div id="logo" class="position-relative">
+        <div class="position-absolute top-0 start-50 translate-middle-x">
+          <img src="/img/nlm_logo_2024.png" alt="..." />
         </div>
       </div>
-    </header>
+      <!-- Navbar -->
+      <!-- <hr> -->
+      <header class="top-header">
+        <div id="sect-01-cont" class="container-fluid">
+          <div class="row">
+            <!-- Carousel -->
+            <div>
+              <div
+                id="carouselExampleAutoplaying"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="/img/pepsi_4k_sm.png"
+                      class="d-block w-100"
+                      alt="Pepsi Concept"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/Feynes_Kiss_Logo1_sm.png"
+                      class="d-block w-100"
+                      alt="Feynes Kiss Logo Concept 1"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="/img/Feynes_Kiss_Logo2_sm.png"
+                      class="d-block w-100"
+                      alt="Feynes Kiss Logo Concept 2"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- End Carousel -->
+          <div class="row">
+            <!-- Coming Soon H1 -->
+            <div id="coming-soon" class="position-relative">
+              <div class="position-absolute top-0 start-50 translate-middle-x">
+                <h1>Coming Soon</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <hr id="bottom-hr">
+      <footer>
+        
+      </footer>
+    </div>
 
     <!-- JavaScript Link -->
     <script
