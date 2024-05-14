@@ -45,7 +45,7 @@
 /* ----------------------------------------------------------- */
 
 #coming-soon {
-    padding-top: 30px;
+    padding-top: 40px;
     color: rgb(20, 48, 208);
     font-family: "Tilt Neon", sans-serif;
     font-optical-sizing: auto;
@@ -76,7 +76,7 @@ button {
 /* hr */
 
 #bottom-hr {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 /* Footer */
@@ -90,6 +90,10 @@ button {
     list-style-type: none;
     justify-content: space-between;
     padding: 0px 0px 0px 0px;
+}
+
+#footer {
+    padding-bottom: 20px;
 }
 #footer-address {
     margin: auto;
