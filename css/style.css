@@ -2,34 +2,19 @@
     outline: 1px dotted red;
 } */
 
-#wrapper{
-    padding: 0px 0px 0px 0px;
-}
+
 
 /* Title */
 /* ----------------------------------------------------------- */
 
-#title {
-    margin: auto;
-    width: 50%;
-}
 
 /* Header Navagation Menu */
 /* ----------------------------------------------------------- */
 
-#header-menu {
-    margin: auto;
-    width: 50%;
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    padding: 0px 50px 0px 50px;
-}
 
-#nlm_logo_2024 {
-    background-color: white;
+#topHr {
+    margin: 0px 0px 0px 0px;
 }
-
 
 
 /* Carousel */
@@ -64,44 +49,30 @@ a {
     text-decoration: none;
 }
 
+
 /* Buttons */
 /* ----------------------------------------------------------- */
 
-button {
-    background-color: rgb(255, 255, 255);
+.btn-link {
+    text-decoration: none;
 }
+
+
 
 /* hr */
 
-#bottom-hr {
+#bottomHr {
     padding-top: 10px;
 }
 
 /* Footer */
 /* ----------------------------------------------------------- */
 
-#social-media-icons {
-    margin: auto;
-    width: 50%;
-    padding: 10px 0px 0px 10px;
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    padding: 0px 0px 0px 0px;
-}
 
 #footer {
     padding-bottom: 20px;
 }
-#footer-address {
-    margin: auto;
-    width: 50%;
-    padding: 10px 0px 0px 10px;
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    padding: 0px 200px 0px 200px;
-}
+
 /* CSS Media Queries */
 /* ----------------------------------------------------------- */
 

@@ -25,93 +25,63 @@
   <!-- Body -->
   <body>
     <div class="wrapper">
-      <!-- Logo -->
-      <div id="logo" class="position-relative">
-        <div class="position-absolute top-0 start-50 translate-middle-x">
-          <img src="/img/nlm_logo_2024.png" alt="..." />
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Welcome to Next Level Media LLC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- Botton -->
+              <li><button type="button" class="btn btn-link">Home</button></li>
+              <li><button type="button" class="btn btn-link">About NLMMSLLC</button></li>
+              <li><button type="button" class="btn btn-link">Portfolio</button></li>
+              <li><button type="button" class="btn btn-link">Contact Us</button></li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
         </div>
+      </nav>
+      <div>
+        <hr id="topHr">
       </div>
-      <!-- Navbar -->
-      <!-- <hr> -->
-      <header class="top-header">
-        <div id="sect-01-cont" class="container-fluid">
-          <div class="row">
-            <!-- Carousel -->
-            <div>
-              <div
-                id="carouselExampleAutoplaying"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="/img/pepsi_4k_sm.png"
-                      class="d-block w-100"
-                      alt="Pepsi Concept"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="/img/Feynes_Kiss_Logo1_sm.png"
-                      class="d-block w-100"
-                      alt="Feynes Kiss Logo Concept 1"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="/img/Feynes_Kiss_Logo2_sm.png"
-                      class="d-block w-100"
-                      alt="Feynes Kiss Logo Concept 2"
-                    />
-                  </div>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleAutoplaying"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleAutoplaying"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
+      <!-- End Nav Bar -->
+      <!-- Carousel -->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/img/pepsi_4k_sm.png" class="d-block w-100" alt="...">
           </div>
-          <!-- End Carousel -->
-          <div class="row">
-            <!-- Coming Soon H1 -->
-            <div id="coming-soon" class="position-relative">
-              <div class="position-absolute top-0 start-50 translate-middle-x">
-                <h1>Coming Soon</h1>
-              </div>
-            </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/img/Feynes_Kiss_Logo1_sm.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/Feynes_Kiss_Logo2_sm.png" class="d-block w-100" alt="...">
           </div>
         </div>
-      </header>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- End Carousel -->
 
-      <hr id="bottom-hr">
+      <hr id="bottomHr">
       <div class="row">
         <div class="text-center col-lg-6 offset-lg-3" id="footer">
-           <!-- <h4>Footer</h4> -->
-           <p>Copyright &copy; 2024 &middot; All Rights Reserved &middot; <a href="#" >Next Level Media MS LLC</a>&middot; Phone: 601.695.9849</p>
+          <!-- <h4>Footer</h4> -->
+          <p>Copyright &copy; 2024 &middot; All Rights Reserved &middot; <a href="#" >Next Level Media MS LLC</a>&middot; Phone: 601.695.9849</p>
         </div>
-     </div>
+      </div>
     </div>
 
     <!-- JavaScript Link -->
