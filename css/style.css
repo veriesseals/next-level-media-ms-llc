@@ -60,6 +60,7 @@ a {
 
 
 /* hr */
+/* ----------------------------------------------------------- */
 
 #bottomHr {
     padding-top: 10px;
@@ -75,22 +76,3 @@ a {
 
 /* CSS Media Queries */
 /* ----------------------------------------------------------- */
-
-/* @media (max-width: 1080px) {
-    .wrapper {
-        padding: 0px 10px 0px 10px;
-        width: 100%;
-    }
-    #carouselExampleAutoplaying {
-        width: 100%;
-    }
-    #title {
-        width: 100%;
-    }
-    #social-media-icons {
-        padding: 0px 0px 0px 0px;
-    }
-    #footer-address {
-        padding: 0px 0px 0px 0px;
-    }
-} */
